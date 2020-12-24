@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  scrollbar-width: thin !important;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../resources/bg-login.svg");
+  font-family: "Ubuntu", sans-serif;
+}
+
+input {
+  border-radius: 15px;
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+label {
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  color: #011401;
+  font-weight: bold;
+}
+
+select {
+  border-radius: 15px;
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+option {
+  margin: 5px;
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.register {
+  font-style: italic;
+  margin: auto;
+}
+
+.login-card {
+  margin: auto;
+  height: 450px;
+  width: 400px;
+  overflow: hidden;
+  background-color: #e2dfdf;
+  padding: 10px;
+  border-radius: 15px;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-header {
+  background-color: #9fbe77;
+  padding: 15px;
+  border-radius: 45px;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-header h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.home-card-champ {
+  margin: 30px;
+  background-color: #e2dfdf;
+  padding: 25px;
+  border-radius: 15px;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.champ-box {
+  margin: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #86be51;
+  color: #52ad36;
+  text-align: center;
+  padding: 65px;
+}
+
+.modal {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  width: 60%;
+  top: 30%;
+  height: 300px;
+  background-color: #83a567;
+  z-index: 10;
+  display: none;
+}
+
+.form-imgs {
+  float: right;
+  width: 200;
+  height: 200;
+  overflow: auto;
+}
+
+.login-btn {
+  padding: 10px;
+  margin: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  background-color: #aedb94;
+  border: none;
+}
+
+input[type = "file"] {
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
